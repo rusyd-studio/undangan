@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="coba.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="master">
+    <div class="red">
+      <div class="red-sub">
+        <section>
+          <p>THE WEDDING</p>
+        </section>
+        <p>
+          Hana & Irfan
+        </p>
+        <section>
+          <p>Tanggal Bulan Tahun</p>
+        </section>
+      </div>
+      <div style="text-align: center;">
+        <p>Kepada Yth. Ibu/Bapak/Saudara/i</p>
+        <br>
+        <button class="btn-amplop" onclick="play()">
+          <audio loop id="audio">
+            <source src="mp3/Heres.mp3" type="audio/mp3">
+          </audio>
+          Buka Undangan
+        </button>
+      </div>
+    </div>  
+    
+    <div class="blue">
+      <div style="padding-top: 7rem;text-align: center;">
+        <p>
+          THE WEDDING OF
+        </p>
+        <div>
+          <img style="width: 8rem;padding-top: 4rem;" src="images/Hana-Ahmad-Cover-puk0av0jcdeu3qpedyfdeg75gwutcpen9qi2qwvftc.png" alt="">
+        </div>
+        <p style="font-family: Playball;font-size: 3rem;padding-top: 3rem;margin-bottom: 1rem;">
+          Hana & Irfan
+        </p>
+        <p style="font-family: Playball;font-size: 2rem;padding-top: 3rem;margin-bottom: 1rem;">Save The Date</p>
+        <p>Tanggal, Bulan, Tahun</p>
+        <br>
+      </div>
+    </div>
+    
+    <div class="green">
+      <p style="padding-top: 12rem;font-family: Playball;font-size: 2rem;">
+        Assalamualaikum Wr, Wb,
+      </p>
+      <p>
+        Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i serta
+        kerabat sekalian untuk menghadiri acara pernikahan kami:
+      </p>
+      <br>
+      <img data-aos="fade-up" src="images/Hana-Ahmad-Putri-150x150.jpg" alt="">
+      <p style="font-family: Playball;font-size: 2rem;">
+        Hana Nur Aulia
+      </p>
+      <p>
+        <b>Putri Ke-enam Dari</b><br> Bapak Ahmad & Ibu Rohanah
+      </p>
+      <br>
+      <p style="font-family: playball;font-size: 1.5rem;">
+        dengan
+      </p>
+      <br>
+      <img data-aos="fade-up" src="images/Hana-Ahmad-Putra-150x150.jpg" alt="">
+      <p style="font-family: Playball;font-size: 2rem;">
+        Irfan Nawawi
+      </p>
+      <p>
+        <b>Putra pertama Dari</b><br> Bapak Sutisna & Ibu Nani Heryani
+      </p>
+      <br>
+    </div>
+    <!-- wave -->
+    <div style="position: relative;width: 80%;">
+      <svg style="position: absolute;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5A4447" fill-opacity="1" d="M0,320L40,298.7C80,277,160,235,240,224C320,213,400,235,480,234.7C560,235,640,213,720,186.7C800,160,880,128,960,138.7C1040,149,1120,203,1200,218.7C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg style="position: absolute; opacity: 40%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#806D6E" fill-opacity="1" d="M0,32L40,53.3C80,75,160,117,240,122.7C320,128,400,96,480,90.7C560,85,640,107,720,122.7C800,139,880,149,960,128C1040,107,1120,53,1200,42.7C1280,32,1360,64,1400,80L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C9BBB8" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,186.7C320,203,400,245,480,229.3C560,213,640,139,720,138.7C800,139,880,213,960,213.3C1040,213,1120,139,1200,122.7C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </div>
+    
+    <div class="yellow">
+      <p style="padding-top: 8rem;font-family: Playball;font-size: 2rem;">
+        Indahnya Hari Yang Dinanti
+      </p>
+      <br>
+      <p>
+        Dan kawinkanlah orang-orang yang sendirian di antara kamu,
+        dan orang-orang yang layak (berkawin) dari hamba-hamba sahayamu yang lelaki
+        dan hamba-hamba sahayamu yang perempuan. Jika mereka miskin Allah akan memampukan mereka dengan karunia-Nya.
+        Dan Allah Maha luas (pemberian-Nya) lagi Maha Mengetahui. QS. An Nur : 32
+      </p>
+    
+    
+      <div class="kotak-1">
+        <p style="font-family: Playball;font-size: 2.5rem;color: #D4A989;">
+          Akad Nikah
+        </p>
+        <p>
+          Jum'at, Tanggal Bulan Tahun
+        </p>
+        <p>
+          09.00 WIB - Selesai
+        </p>
+        <p>
+          <b>Lokasi:</b><br>
+          <b>Graha Intan Balarea</b><br>
+          Jl. Patriot No.12-14, Sukagalih, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151
+        </p>
+      </div>
+      
+      <div class="kotak-2">
+        <p style="font-family: Playball;font-size: 2.5rem;color: #D4A989;">
+          Resepsi
+        </p>
+        <p>
+          Jum'at, Tanggal Bulan Tahun
+        </p>
+        <p>
+          19.00 WIB - Selesai
+        </p>
+        <p>
+          <b>Lokasi:</b><br>
+          <b>Graha Intan Balarea</b><br>
+          Jl. Patriot No.12-14, Sukagalih, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151
+        </p>
+      </div>
+      
+      <div class="kotak-3">
+        <p style="font-family: Playball;font-size: 2.5rem;color: #D4A989;">
+          Haflah Tilawatil Qur'an
+        </p>
+        <p>
+          Sabtu, Tanggal Bulan Tahun
+        </p>
+        <p>
+          20.00 WIB - Selesai
+        </p>
+        <p>
+          <b>Lokasi:</b><br>
+          <b>Kediaman Mempelai Wanita</b><br>
+          Jl. Raya Sukawening, Babakanloa, Pangatikan, Sukamukti, Kec. Sukawening, Kabupaten Garut, Jawa Barat 44184
+        </p>
+      </div>
+    
+    </div>
+    
+    <div class="brown">
+      <div style="padding-top: 4rem;color: #5A4447;text-align: center;">
+        <h1>Health Protocols</h1>
+        <p>
+          Guna mencegah penyebaran Covid-19, diharapkan bagi tamu undangan untuk mematuhi Protokol Kesehatan di bawah ini :
+        </p>
+        <br><br><br>
+      </div>
+      <div style="text-align: center;display: flex;justify-content: space-around;font-size: 1rem;">
+        <p>Cuci Tangan</p>
+        <p>Gunakan Masker</p>
+        <p>Jaga Jarak</p>
+      </div>
+      <br><br><br>
+      <div style="text-align: center;display: flex;justify-content: space-around;padding-bottom: 15rem;font-size: 1rem;">
+        <p>Tidak Berjabat Tangan</p>
+        <p>Hindari Kerumunan</p>
+        <p>Gunakan Handsanitizer</p>
+      </div>
+    </div>
+    
+    <div class="gallery">
+      <p style="font-size: 4rem;">
+        Foto Galeri
+      </p>
+      <img src="images/Hana-Ahmad-Cover-puk0av0jcdeu3qpedyfdeg75gwutcpen9qi2qwvftc.png" alt="">
+    </div>
+    
+    <div style="position: relative;">
+      <svg style="position: absolute;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5A4447" fill-opacity="1" d="M0,320L40,298.7C80,277,160,235,240,224C320,213,400,235,480,234.7C560,235,640,213,720,186.7C800,160,880,128,960,138.7C1040,149,1120,203,1200,218.7C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg style="position: absolute; opacity: 40%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#806D6E" fill-opacity="1" d="M0,32L40,53.3C80,75,160,117,240,122.7C320,128,400,96,480,90.7C560,85,640,107,720,122.7C800,139,880,149,960,128C1040,107,1120,53,1200,42.7C1280,32,1360,64,1400,80L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C9BBB8" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,186.7C320,203,400,245,480,229.3C560,213,640,139,720,138.7C800,139,880,213,960,213.3C1040,213,1120,139,1200,122.7C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </div>
+    <div class="quotes">
+      <p>
+        Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri,
+        dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda
+        bagi kaum yang berfikir. <br><br>
+        (Q.S Ar Rum : 21)
+      </p>
+    </div>
+    <div class="end">
+      <img src="images/Hana-Ahmad-Cover-puk0av0jcdeu3qpedyfdeg75gwutcpen9qi2qwvftc.png" alt="">
+      <p>
+        Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir
+        dan memberikan doa restu. Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.
+      </p>
+      <br>
+      <p style="font-family: Playball;font-size: 1.2rem;">
+        Wassalamu'alaikum Wr, Wb,
+      </p>
+      <br><br><br>
+      <p style="font-family: Playball;font-size: 2rem;">
+        Hana & Irfan
+      </p>
+    </div>
+    
+    <div class="figura-akhir">
+      <svg style="position: absolute;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5A4447" fill-opacity="1" d="M0,320L40,298.7C80,277,160,235,240,224C320,213,400,235,480,234.7C560,235,640,213,720,186.7C800,160,880,128,960,138.7C1040,149,1120,203,1200,218.7C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg style="position: absolute; opacity: 40%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#806D6E" fill-opacity="1" d="M0,32L40,53.3C80,75,160,117,240,122.7C320,128,400,96,480,90.7C560,85,640,107,720,122.7C800,139,880,149,960,128C1040,107,1120,53,1200,42.7C1280,32,1360,64,1400,80L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C9BBB8" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,186.7C320,203,400,245,480,229.3C560,213,640,139,720,138.7C800,139,880,213,960,213.3C1040,213,1120,139,1200,122.7C1280,107,1360,149,1400,170.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </div>
+  </div>
+
+
+<script>
+
+  AOS.init();
+
+  function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }
+
+  const tombol = () => {
+    const btn = document.querySelector('.btn-amplop');
+    const red = document.querySelector('.red')
+
+    btn.addEventListener('click', () => {
+      red.classList.toggle('red-open');
+    });
+  }
+
+  tombol();
+</script>
+
+
+</body>
+</html>
