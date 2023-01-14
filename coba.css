@@ -20,11 +20,12 @@ button {
 }
 
 .red{
-
+  /* visibility: hidden; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  overflow-y: hidden;
   
   z-index: 3;
   position: fixed;
@@ -76,6 +77,10 @@ button {
   background-repeat: no-repeat;
 }
 
+.blue-img{
+  width: 8rem;padding-top: 4rem;
+}
+
 .green{
   top: 18rem;
   /* position: absolute; */
@@ -86,6 +91,14 @@ button {
   background-position: top center;
   background-repeat: no-repeat;
   text-align: center;
+}
+
+.green-img{
+  width: 9rem;
+}
+
+.salam{
+  padding-top: 12rem;font-family: Playball;font-size: 1.5rem;
 }
 
 .yellow{
@@ -100,6 +113,9 @@ button {
   text-align: center;
 }
 
+.indahnya_hari{
+  padding-top: 10rem;font-family: Playball;font-size: 1.5rem;
+}
 
 .brown{
   /* margin-bottom: 12rem; */
@@ -116,6 +132,9 @@ button {
 }
 
 .gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding-top: 5rem;
   background-color: #5A4447;
   font-family: Playball;
@@ -124,8 +143,15 @@ button {
   width: 80%;
 }
 
+.galeri_foto{
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
 .quotes{
   align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 2rem;
   background-color: #695457;
   color: aliceblue;
@@ -154,6 +180,10 @@ button {
   color: aliceblue;
   padding: 1rem;
   background-color: #5A4447;
+}
+
+.kotak-1_sub{
+  font-family: Playball;font-size: 1.5rem;color: #D4A989;
 }
 
 .kotak-2{
