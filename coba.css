@@ -77,9 +77,23 @@ button {
   background-repeat: no-repeat;
 }
 
+.blue-div{
+  padding-top: 8rem;text-align: center;
+}
+
+.blue-mempelai{
+  font-family: Playball;font-size: 3rem;padding-top: 3rem;margin-bottom: 1rem;
+}
+
+.blue-savethedate{
+  font-family: Playball;font-size: 2rem;padding-top: 3rem;margin-bottom: 1rem;
+}
+
 .blue-img{
   width: 8rem;padding-top: 4rem;
 }
+
+/*! green area */
 
 .green{
   top: 18rem;
@@ -93,6 +107,14 @@ button {
   text-align: center;
 }
 
+.green-female{
+  font-family: Playball;font-size: 2rem;
+}
+
+.green-dengan{
+  font-family: playball;font-size: 1.5rem;
+}
+
 .green-img{
   width: 9rem;
 }
@@ -100,6 +122,8 @@ button {
 .salam{
   padding-top: 12rem;font-family: Playball;font-size: 1.5rem;
 }
+
+/*!!! yellow area */
 
 .yellow{
   top: 18rem;
@@ -117,6 +141,8 @@ button {
   padding-top: 10rem;font-family: Playball;font-size: 1.5rem;
 }
 
+/*!!!! brown area */
+
 .brown{
   /* margin-bottom: 12rem; */
   top: 18rem;
@@ -130,6 +156,21 @@ button {
   /* text-align: center; */
   /* text-align: left; */
 }
+
+.brown-pro{
+  padding-top: 4rem;color: #5A4447;text-align: center;
+}
+
+.brown-point-pro1{
+  text-align: center;display: flex;justify-content: space-around;font-size: 1rem;
+}
+
+.brown-point-pro2{
+  text-align: center;display: flex;justify-content: space-around;padding-bottom: 15rem;font-size: 1rem;
+}
+
+
+/*!!!! Gallery Area */
 
 .gallery{
   display: flex;
@@ -148,17 +189,24 @@ button {
   font-size: 2rem;
 }
 
+.wave-akhir{
+  position: relative;width: 80%;margin-bottom: -1rem;margin-top: -4rem ;
+}
+
 .quotes{
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
   background-color: #695457;
   color: aliceblue;
   text-align: center;
   font-size: 1rem;
   width: 80%;
 }
+
+/*!!! area end */
 
 .end{
   margin-top: 6rem;
@@ -216,4 +264,32 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+
+.warning{
+display: none;
+}
+
+@media (min-width:600px ) {
+  body{
+    position: relative;
+    background-color: aliceblue;
+    color: #291b15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .master{
+    visibility: hidden;
+  }
+
+  .warning{
+    position: absolute;
+    display: block;
+    /* font-size: 4rem; */
+    color: #291b15;
+  }
 }
