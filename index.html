@@ -20,7 +20,7 @@
     <h1>UKURAN WEBSITE TIDAK SUPPORT DEKSTOP, TABLET, <br> HARAP BUKA DI UKURAN HP SAJA <br> HOREAM NGA RESPONSIVE KEUN </h1>
   </div>
   <div class="master" id="mtr">
-    <div class="red">
+    <div class="red open-amplop" onclick="play();openFullscreen();">
       <div class="red-sub">
         <section>
           <p>THE WEDDING</p>
@@ -38,7 +38,7 @@
 
         <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ini tombol -->
 
-        <button class="btn-amplop" onclick="play();openFullscreen();">
+        <button class="btn-amplop">
           <audio loop id="audio">
             <source src="mp3/Heres.mp3" type="audio/mp3">
           </audio>
@@ -264,7 +264,7 @@
   }
 
   const tombol = () => {
-    const btn = document.querySelector('.btn-amplop');
+    const btn = document.querySelector('.open-amplop');
     const red = document.querySelector('.red')
 
     btn.addEventListener('click', () => {
