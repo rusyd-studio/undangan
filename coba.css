@@ -26,6 +26,7 @@ button {
   align-items: center;
   justify-content: space-between;
   overflow-y: hidden;
+  scrollbar-width: none;
   
   z-index: 3;
   position: fixed;
@@ -33,6 +34,7 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
+  height: 100vh;
   /* opacity: 70%; */
 
   background-image: url('images/cover.jpg');
@@ -162,11 +164,11 @@ button {
 }
 
 .brown-point-pro1{
-  text-align: center;display: flex;justify-content: space-around;font-size: 1rem;
+  text-align: center;display: flex;justify-content: space-around;font-size: 0.8rem;
 }
 
 .brown-point-pro2{
-  text-align: center;display: flex;justify-content: space-around;padding-bottom: 15rem;font-size: 1rem;
+  text-align: center;display: flex;justify-content: space-around;padding-bottom: 15rem;font-size: 0.8rem;
 }
 
 

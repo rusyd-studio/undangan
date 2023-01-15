@@ -35,6 +35,9 @@
       <div style="text-align: center;">
         <p>Kepada Yth. Ibu/Bapak/Saudara/i</p>
         <br>
+
+        <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ini tombol -->
+
         <button class="btn-amplop" onclick="play();openFullscreen();">
           <audio loop id="audio">
             <source src="mp3/Heres.mp3" type="audio/mp3">
@@ -245,6 +248,8 @@
   function play() {
     var audio = document.getElementById("audio");
     audio.play();
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   var elem = document.documentElement;
