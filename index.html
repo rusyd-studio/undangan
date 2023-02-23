@@ -37,7 +37,7 @@
         <br>
 
         <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ini tombol -->
-
+<p></p>
         <button class="btn-amplop">
           <audio loop id="audio">
             <source src="mp3/Heres.mp3" type="audio/mp3">
@@ -45,6 +45,7 @@
           Buka Undangan
         </button>
       </div>
+      
     </div>  
     
     <div class="blue">
@@ -240,41 +241,7 @@
     </div>
   </div>
 
-
-<script>
-
-  AOS.init();
-
-  function play() {
-    var audio = document.getElementById("audio");
-    audio.play();
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-  var elem = document.documentElement;
-  function openFullscreen() {
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.webkitRequestFullscreen) {
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) {
-      elem.msRequestFullscreen();
-    }
-  }
-
-  const tombol = () => {
-    const btn = document.querySelector('.open-amplop');
-    const red = document.querySelector('.red')
-
-    btn.addEventListener('click', () => {
-      red.classList.toggle('red-open');
-    });
-  }
-
-  tombol();
-</script>
-
+<script src="index.js"></script>
 
 </body>
 </html>
