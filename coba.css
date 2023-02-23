@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html{
+height: -webkit-fill-available;
+}
+
 body, input, button {
   background-color: #FFF6EF;
   font-size: 1rem;
@@ -34,7 +38,8 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100dvh;
+  height: 100vh;
+  height: -webkit-fill-available;
   /* opacity: 70%; */
 
   background-image: url('images/cover.jpg');
