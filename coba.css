@@ -6,7 +6,7 @@
 }
 
 html{
-height: -webkit-fill-available;
+  background-color: #291b15;
 }
 
 body, input, button {
@@ -24,7 +24,6 @@ button {
 }
 
 .red{
-  /* visibility: hidden; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,8 +37,7 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100vh;
-  height: -webkit-fill-available;
+  height: 100dvh;
   /* opacity: 70%; */
 
   background-image: url('images/cover.jpg');
@@ -73,7 +71,11 @@ button {
   color: aliceblue;
 }
 
+
+/*! blue area */
+
 .blue{
+  visibility: hidden;
   /* opacity: 80%; */
   /* top: 1rem; */
   /* position: absolute; */
@@ -104,6 +106,7 @@ button {
 
 .green{
   top: 18rem;
+  visibility: hidden;
   /* position: absolute; */
   width: 80%;
   height: max-content;
@@ -130,9 +133,15 @@ button {
   padding-top: 12rem;font-family: Playball;font-size: 1.5rem;
 }
 
+#wave_1{
+  visibility: hidden;
+}
+
+
 /*!!! yellow area */
 
 .yellow{
+  visibility: hidden;
   top: 18rem;
   /* position: absolute; */
   width: 80%;
@@ -151,6 +160,7 @@ button {
 /*!!!! brown area */
 
 .brown{
+  visibility: hidden;
   /* margin-bottom: 12rem; */
   top: 18rem;
   /* position: absolute; */
@@ -180,6 +190,7 @@ button {
 /*!!!! Gallery Area */
 
 .gallery{
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -196,11 +207,16 @@ button {
   font-size: 2rem;
 }
 
+
+.wave_2{
+  visibility: hidden;
+}
 .wave-akhir{
   position: relative;width: 80%;margin-bottom: -1rem;margin-top: -4rem ;
 }
 
 .quotes{
+  visibility: hidden;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -216,6 +232,7 @@ button {
 /*!!! area end */
 
 .end{
+  visibility: hidden;
   margin-top: 6rem;
   text-align: center;
   color: #5A4447;
@@ -261,6 +278,7 @@ button {
 }
 
 .figura-akhir{
+  visibility: hidden;
   width: 100%;
   position: absolute;
   bottom: -15px;
